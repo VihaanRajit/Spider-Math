@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Spider-Math</title>
+    <!-- Lib -->
+    <script src="lib/p5.js"></script>
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <meta charset="utf-8">
+    <script src="https://unpkg.com/matter-js@0.14.2/build/matter.min.js"></script>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      const firebaseConfig = {
+          apiKey: "AIzaSyDE90XzC9KtIjyKqVzx690BwYjgLdyDQjc",
+          authDomain: "spider-math-a103d.firebaseapp.com",
+          projectId: "spider-math-a103d",
+          storageBucket: "spider-math-a103d.appspot.com",
+          messagingSenderId: "3312991028",
+          appId: "1:3312991028:web:a32a0fed7c7196a3a08361"
+        };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script>
+
+  </body>
+</html>
